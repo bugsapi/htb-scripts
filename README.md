@@ -5,9 +5,6 @@ Below is the documentation for the script, detailing its usage, commands, and fu
 
 ---
 
-![image](https://github.com/user-attachments/assets/388076d4-a88a-4d57-a7a4-a87f1a080d5d)
-
-
 # HTB Enumerator Tool Documentation
 
 ![image](https://github.com/user-attachments/assets/1aa3532d-9ad0-43b1-b37e-4c86c7fa87d8)
