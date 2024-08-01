@@ -1,7 +1,7 @@
 # htb-scripts
 Automation of htb scripts from LLM while solving htb machines
 
-Certainly! Below is the documentation for the script, detailing its usage, commands, and functionalities.
+Below is the documentation for the script, detailing its usage, commands, and functionalities.
 
 ---
 
