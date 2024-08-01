@@ -74,7 +74,7 @@ The script checks for and installs the following tools if they are not already p
 To run the script, use the following command:
 
 ```bash
-sudo python3 htb_enum.py
+sudo -E python3 htb_enum.py
 ```
 
 **Note**: The script must be run with root privileges (`sudo`) to update `/etc/hosts`.
