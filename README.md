@@ -7,6 +7,9 @@ Below is the documentation for the script, detailing its usage, commands, and fu
 
 # HTB Enumerator Tool Documentation
 
+![image](https://github.com/user-attachments/assets/1aa3532d-9ad0-43b1-b37e-4c86c7fa87d8)
+
+
 ## Overview
 
 The HTB Enumerator Tool is a modular and interactive command-line interface (CLI) designed to assist in the enumeration of HackTheBox (HTB) machines. It provides various functionalities such as running Nmap scans, updating `/etc/hosts`, starting web servers, and more. The tool supports command auto-completion and command history for a user-friendly experience.
