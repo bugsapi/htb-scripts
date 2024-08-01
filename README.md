@@ -9,7 +9,6 @@ Below is the documentation for the script, detailing its usage, commands, and fu
 
 ![image](https://github.com/user-attachments/assets/1aa3532d-9ad0-43b1-b37e-4c86c7fa87d8)
 
-Certainly! Below is a comprehensive README file in Markdown format for the "Hex Enumerator" tool, including instructions for cloning the repository, installing dependencies, and using the tool.
 
 ---
 
